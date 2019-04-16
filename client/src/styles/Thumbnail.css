@@ -1,0 +1,16 @@
+.thumbnail {
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+}
+
+.title {
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+  color: #FFFFFF;
+  background-color: rgba(0,0,0,.75);
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}

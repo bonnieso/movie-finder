@@ -1,0 +1,58 @@
+.home h2 {
+  color: #636363;
+  font-size: 16px;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.header {
+  position: relative;
+  height: 73px;
+  background-color: rgba(0,0,0,.75);
+}
+
+.header h1 {
+  margin: 0;
+  display: inline-block;
+  left: 40px;
+  top: 20px;
+  position: absolute;
+  text-transform: uppercase;
+  color: #636363;
+}
+
+.header input[type=text] {
+  right: 40px;
+  top: 20px;
+  height: 25px;
+  width: 200px;
+  position: absolute;
+  background-color: #131313;
+  border: 1px solid #656363;
+  padding: 4px 10px;
+  color: #CCCCCC;
+  font-size: 13px;
+}
+
+input[type=text]:focus {
+  outline: 0;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header {
+    height: 100%;
+    padding: 20px;
+  }
+
+  .header h1 {
+    position: relative;
+    left: 0;
+  }
+
+  .header input[type=text] {
+    position: relative;
+    right: 0;
+    margin-top: 15px;
+  }
+}

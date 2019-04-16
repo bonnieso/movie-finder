@@ -1,0 +1,36 @@
+.description {
+  background-size: cover;
+  background-position: center;
+  background-color: #333333;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  text-align: left;
+}
+
+.back {
+  margin: 30px 45px;
+  display: block;
+}
+
+.back a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  mix-blend-mode: difference;
+}
+
+.description-text {
+  bottom: 0;
+  position: absolute;
+  background-color: rgba(0,0,0,.85);;
+  color: #FFFFFF;
+  width: -webkit-fill-available;
+  padding: 60px;
+}
+
+.description-text h1 {
+  font-size: 40px;
+  margin: 0;
+}
